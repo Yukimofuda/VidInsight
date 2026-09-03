@@ -1,0 +1,2 @@
+6dd2e0e (HEAD -> main) test: configure pytest project path
+751194c (develop) chore: initialize VidInsight Day 1 project

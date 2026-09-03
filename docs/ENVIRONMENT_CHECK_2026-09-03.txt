@@ -1,0 +1,10 @@
+Python: 3.13.5
+FFmpeg: /usr/bin/ffmpeg
+fastapi: OK
+streamlit: MISSING
+whisper: MISSING
+faster_whisper: MISSING
+chromadb: MISSING
+langchain: MISSING
+sentence_transformers: MISSING
+rank_bm25: MISSING
