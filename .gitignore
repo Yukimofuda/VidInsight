@@ -1,0 +1,22 @@
+# secrets
+.env
+*.key
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+# data & models
+data/*.mp4
+data/*.mov
+data/*.mkv
+data/*.mp3
+storage/chroma/*
+storage/transcripts/*
+storage/sqlite/*.db
+models/
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/

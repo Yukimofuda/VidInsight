@@ -1,0 +1,52 @@
+{
+  "version": "0.1",
+  "target_cases": 40,
+  "video_types": [
+    {
+      "id": "V1",
+      "type": "AI课程",
+      "duration": "5-8min",
+      "language": "zh"
+    },
+    {
+      "id": "V2",
+      "type": "英文技术分享",
+      "duration": "8-15min",
+      "language": "en"
+    },
+    {
+      "id": "V3",
+      "type": "双人会议",
+      "duration": "5-10min",
+      "language": "zh"
+    },
+    {
+      "id": "V4",
+      "type": "含PPT教程",
+      "duration": "~10min",
+      "language": "zh"
+    },
+    {
+      "id": "V5",
+      "type": "噪声环境",
+      "duration": "3-5min",
+      "language": "zh"
+    }
+  ],
+  "question_types": [
+    "fact",
+    "timestamp",
+    "cross_segment",
+    "summary",
+    "unanswerable"
+  ],
+  "case_schema": {
+    "case_id": "",
+    "video_id": "",
+    "question": "",
+    "question_type": "",
+    "gold_answer": "",
+    "gold_start": null,
+    "gold_end": null
+  }
+}
