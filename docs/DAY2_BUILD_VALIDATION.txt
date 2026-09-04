@@ -1,0 +1,14 @@
+VidInsight Day 2 build validation
+Date: 2026-09-04
+
+1. Python compileall: PASS
+2. Unit tests: 8 passed
+3. FastAPI /health: HTTP 200
+   {"status":"ok","project":"VidInsight","day":"2026-09-04"}
+4. Invalid .txt upload: HTTP 400
+5. FFmpeg extraction smoke test: PASS
+   codec_name=pcm_s16le
+   sample_rate=16000
+   channels=1
+
+Note: Real faster-whisper inference requires model download on the user's machine during the first request, so the packaged build validates the engine contract and pipeline but does not bundle model weights.
