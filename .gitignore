@@ -1,22 +1,22 @@
-# secrets
 .env
-*.key
-# Python
-__pycache__/
-*.py[cod]
 .venv/
-venv/
+__pycache__/
+*.pyc
 .pytest_cache/
-# data & models
-data/*.mp4
-data/*.mov
-data/*.mkv
-data/*.mp3
-storage/chroma/*
+.DS_Store
+
+storage/videos/*
+storage/audio/*
 storage/transcripts/*
 storage/sqlite/*.db
-models/
-# IDE / OS
-.DS_Store
-.vscode/
-.idea/
+storage/sqlite/*.db-*
+storage/chroma/*
+
+!storage/videos/.gitkeep
+!storage/audio/.gitkeep
+!storage/transcripts/.gitkeep
+!storage/sqlite/.gitkeep
+!storage/chroma/.gitkeep
+
+storage/chunks/*
+!storage/chunks/.gitkeep
